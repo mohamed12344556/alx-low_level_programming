@@ -1,8 +1,3 @@
-/*
- * File: 102-print_comb5.c
- * Auth: Alaa Refaat
- */
-
 #include <stdio.h>
 
 /**
