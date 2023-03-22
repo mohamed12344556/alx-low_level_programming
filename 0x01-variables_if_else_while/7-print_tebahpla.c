@@ -1,8 +1,3 @@
-/*
- * File: 7-print_tebahpla.c
- * Auth: Alaa Refaat
- */
-
 #include <stdio.h>
 
 /**

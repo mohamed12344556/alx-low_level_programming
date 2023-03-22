@@ -1,8 +1,3 @@
-/*
- * File: 3-print_alphabets.c
- * Auth: Alaa Refaat
- */
-
 #include <stdio.h>
 
 /**
