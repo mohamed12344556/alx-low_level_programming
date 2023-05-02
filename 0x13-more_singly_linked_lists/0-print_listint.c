@@ -1,10 +1,15 @@
+/*
+ * File: 0-print_listint.c
+ * Auth: Mohamed Ahmed
+ */
 #include "lists.h"
 
 /**
- * print_listint - prints all the elements of a listint_t list.
+ * Print_listint - prints all of the factors of a listint_t listing.
  * @h: pointer to the list.
  * Return: number of nodes.
  **/
+
 size_t print_listint(const listint_t *h)
 {
 	const listint_t *node = h;
@@ -19,3 +24,5 @@ size_t print_listint(const listint_t *h)
 
 	return (cont);
 }
+
+
