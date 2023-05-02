@@ -13,13 +13,14 @@
 
 
 /**
- * Struct listint_s - singly connected listing
+ * struct listint_s - singly linked list
  * @n: integer
  * @next: points to the next node
  *
- * Description: Singly related list node shape
- * for Holberton undertaking
+ * Description: singly linked list node structure
+ * for alx project
  */
+
 typedef struct listint_s
 {
 	int n;
