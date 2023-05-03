@@ -6,10 +6,12 @@
 #include "lists.h"
 
 /**
- * Sum_listint - returns the sum of all the information (n) of a listint_t listing.
- * @head: pointer to the list.
- * Return: Sum of all data inside the list, zero if the lost is empty.
- **/
+ * sum_listint - calculates the sum of all the data in a listint_t list
+ * @head: first node in the linked list
+ *
+ * Return: resulting sum
+ */
+
 
 
 int sum_listint(listint_t *head)
