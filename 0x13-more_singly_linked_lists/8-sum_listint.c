@@ -1,10 +1,17 @@
+/*
+ * File: 8-sum_listint.c
+ * Auth: Mohamed Ahmed
+ */
+
 #include "lists.h"
 
 /**
- * sum_listint - returns the sum of all the data (n) of a listint_t list.
+ * Sum_listint - returns the sum of all the information (n) of a listint_t listing.
  * @head: pointer to the list.
- * Return: sum of all data in the list, 0 if the lost is empty.
+ * Return: Sum of all data inside the list, zero if the lost is empty.
  **/
+
+
 int sum_listint(listint_t *head)
 {
 	listint_t *node = head;
