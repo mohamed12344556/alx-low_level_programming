@@ -1,3 +1,7 @@
+/*
+ * File: 0-print_listint.c
+ * Auth: Mohamed Ahmed
+ */
 #include "lists.h"
 
 /**
@@ -5,9 +9,13 @@
  * @head: pointer to the list.
  * Return: pointer to the first node of the reversed list
  **/
+
+
 listint_t *reverse_listint(listint_t **head)
 {
-	listint_t *prev_node, *next_node;
+	listint_t *prev = NULL;
+	listint_t *next = NULL;
+
 
 	if (!head)
 		return (NULL);
@@ -23,3 +31,4 @@ listint_t *reverse_listint(listint_t **head)
 	*head = prev_node;
 	return (*head);
 }
+
