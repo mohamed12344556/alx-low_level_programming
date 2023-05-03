@@ -1,3 +1,7 @@
+/*
+ * File: 2-add_nodeint.c
+ * Auth: Mohamed Ahmed
+ */
 #include "lists.h"
 
 /**
@@ -6,6 +10,7 @@
  * @n: int to set in the new node.
  * Return: address of the new element, or NULL if it failed
  **/
+
 listint_t *add_nodeint(listint_t **head, const int n)
 {
 	listint_t *new;
