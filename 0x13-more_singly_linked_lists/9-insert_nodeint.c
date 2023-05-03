@@ -1,12 +1,19 @@
+/*
+ * File: 9-insert_nodeint.c
+ * Auth: Mohamed Ahmed
+ */
+
 #include "lists.h"
 
 /**
- * insert_nodeint_at_index - inserts a new node at a given position.
+ * Insert_nodeint_at_index - inserts a brand new node at a given role.
  * @head: pointer to the list.
  * @idx: position to add the node.
  * @n: data for the new node.
- * Return: the address of the new node, or NULL if it failed
+ * Return: The cope with of the brand new node, or NULL if it failed
  **/
+
+
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 {
 	listint_t *aux_node = *head;
@@ -20,7 +27,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 		return (NULL);
 	new_node->n = n;
 
-	/* border case for insert at the beginning */
+	/* Border case for insert at the beginning */
 	if (idx == 0)
 	{
 		new_node->next = *head;
@@ -28,7 +35,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 		return (*head);
 	}
 
-	/* search of position to insert */
+	/* Search of position to insert */
 	index = idx - 1;
 	while (aux_node && cont != index)
 	{
@@ -36,7 +43,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 		aux_node = aux_node->next;
 	}
 
-	/* general case */
+	/* Widespread case */
 	if (cont == index && aux_node)
 	{
 		new_node->next = aux_node->next;
