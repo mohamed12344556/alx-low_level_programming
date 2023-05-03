@@ -7,11 +7,12 @@
 
 
 /**
- * listint_len-returns the wide variety of elements in a connected listint_t listing.
- * @h: pointer to the list.
+ * listint_len - returns the number of elements in a linked lists
+ * @h: linked list of type listint_t to traverse
  *
- * Return: number of nodes.
- **/
+ * Return: number of nodes
+ */
+
 
 
 size_t listint_len(const listint_t *h)
