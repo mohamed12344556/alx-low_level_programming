@@ -6,11 +6,13 @@
 #include "lists.h"
 
 /**
- * Add_nodeint_end - adds a brand new node on the quit of a listint_t list.
- * @head: pointer to the first element of the list.
- * @n: int to set in the new node.
- * Return: address of the new element, or NULL if it failed
- **/
+ * add_nodeint_end - adds a node at the end of a linked list
+ * @head: pointer to the first element in the list
+ * @n: data to insert in the new element
+ *
+ * Return: pointer to the new node, or NULL if it fails
+ */
+
 
 
 listint_t *add_nodeint_end(listint_t **head, const int n)
