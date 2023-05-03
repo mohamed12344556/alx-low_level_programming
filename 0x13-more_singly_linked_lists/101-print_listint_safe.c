@@ -8,7 +8,7 @@
  * Reverse_listint - prints a listint_t linked list.
  * @head: pointer to the list.
  * Return: number of nodes in the list.
- **/
+ */
 
 size_t looped_listint_len(const listint_t *head)
 {
