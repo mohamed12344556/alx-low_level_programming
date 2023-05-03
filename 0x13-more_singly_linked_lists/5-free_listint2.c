@@ -1,10 +1,17 @@
+/*
+ * File: 5-free_listint2.c
+ * Auth: Mohamed Ahmed
+ */
+
 #include "lists.h"
 
 /**
- * free_listint2 - frees a listint_t list.
+ * Free_listint2 - frees a listint_t listing.
  * the function sets the head to NULL.
  * @head: pointer to the list.
  **/
+
+
 void free_listint2(listint_t **head)
 {
 	listint_t *actual_node;
