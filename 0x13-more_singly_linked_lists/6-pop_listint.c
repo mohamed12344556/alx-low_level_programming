@@ -1,10 +1,17 @@
+/*
+ * File: 6-pop_listint.c
+ * Auth: Mohamed Ahmed
+ */
+
 #include "lists.h"
 
 /**
- * pop_listint - deletes the head node of a listint_t linked list.
+ * Pop_listint - deletes the pinnacle node of a listint_t connected list.
  * @head: pointer to the list.
- * Return: head node’s data (n).
+ * Return: Head node’s information (n).
  **/
+
+
 int pop_listint(listint_t **head)
 {
 	int data;
