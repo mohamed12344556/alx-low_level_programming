@@ -1,9 +1,16 @@
+/*
+ * File: 4-free_listint.c
+ * Auth: Mohamed Ahmed
+ */
+
 #include "lists.h"
 
 /**
- * free_listint - frees a listint_t list.
+ * Free_listint - frees a listint_t listing.
  * @head: pointer to the list.
  **/
+
+
 void free_listint(listint_t *head)
 {
 	listint_t *actual_node;
