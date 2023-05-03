@@ -6,10 +6,10 @@
 #include "lists.h"
 
 /**
- * Free_listint2 - frees a listint_t listing.
- * the function sets the head to NULL.
- * @head: pointer to the list.
- **/
+ * free_listint2 - frees a linked list
+ * @head: pointer to the listint_t list to be freed
+ */
+
 
 
 void free_listint2(listint_t **head)
