@@ -7,7 +7,7 @@
 
 
 /**
- * Listint_len - returns the wide variety of elements in a connected listint_t listing.
+ * listint_len-returns the wide variety of elements in a connected listint_t listing.
  * @h: pointer to the list.
  *
  * Return: number of nodes.
