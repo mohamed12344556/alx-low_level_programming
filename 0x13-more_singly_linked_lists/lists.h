@@ -1,10 +1,3 @@
-/**
- * File: lists.h
- * Auth: Mohamed Ahmed
- * Descrition: Header report containing prototypes and definitions for all functions and brands written in the 0x12-more_singly_linked_lists listing.
- */
-
-
 #ifndef LISTS_H
 #define LISTS_H
 
