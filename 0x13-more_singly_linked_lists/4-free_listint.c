@@ -6,9 +6,10 @@
 #include "lists.h"
 
 /**
- * Free_listint - frees a listint_t listing.
- * @head: pointer to the list.
- **/
+ * free_listint-frees linked list
+ * @head: listint_t list freed
+ */
+
 
 
 void free_listint(listint_t *head)
