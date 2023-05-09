@@ -2,7 +2,7 @@
  * File: 1-create_file.c
  */
 
-#include "holberton.h"
+#include "main.h"
 
 /**
  * create_file - Creates a file.
