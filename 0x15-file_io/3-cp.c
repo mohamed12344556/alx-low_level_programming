@@ -1,6 +1,5 @@
 /*
  * File: 3-cp.c
- * Auth: Brennan D Baraban
  */
 
 #include "holberton.h"
