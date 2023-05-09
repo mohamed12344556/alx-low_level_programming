@@ -2,7 +2,7 @@
  * File: 0-read_textfile.c
  */
 
-#include "holberton.h"
+#include "main.h"
 #include <stdlib.h>
 
 /**
